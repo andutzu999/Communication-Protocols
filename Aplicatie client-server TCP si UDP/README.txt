@@ -44,10 +44,10 @@ server.c :
    la fiecare socket(la clientii TCP) abonat la topicul primit de la clientul UDP. Eu avand in vectorul de
    clienti stocate topicurile, pentru fiecare filedescriptor in parte. 
    Datele ce vin de la clientul UDP le convertesc in functia de 'decodificare'
-   in functie  de valoarea lui type.
+   in functie de valoarea lui type.
 
 
-Cand iesim din while, facem clean la toti socketii.
+Dupa executia buclei whil, se face clean la toti socketii.
 
 subscriber.c :
 
